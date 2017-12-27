@@ -1,32 +1,25 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import './media.css';
 
-class Media extends Component {
+class Media extends PureComponent { //tiene should component siempre por defecto
   state = {
     author: this.props.author
   }
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     author: props.author
-  //   }
 
+  // handleClick = event => {
+  //   console.log(this.props.title);
+  //   this.setState({
+  //     author: 'Jonathan Alcántara'
+  //   })
   // }
-
-  handleClick = event => {
-    console.log(this.props.title);
-    this.setState({
-      author: 'Jonathan Alcántara'
-    })
-  }
   render() {
     return(
-      <div className="Media" onClick={this.handleClick}>
+      <div className="Media" onClick={this.props.handleClick}>
         <div className="Media-cover">
           <img 
             className="Media-image"
-            src={this.props.image}
+            src={this.props.cover}
             alt=""
             width={260}
             height={160}
