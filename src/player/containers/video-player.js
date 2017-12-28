@@ -9,6 +9,8 @@ import formatTime from '../../utilities';
 import ProgressBar from '../components/progress-bar';
 import Spinner from '../components/spinner';
 import Volume from '../components/volume';
+import FullScreen from '../components/full-screen';
+
 class VideoPlayer extends Component {
   state = {
     pause: true,
@@ -82,9 +84,22 @@ class VideoPlayer extends Component {
     }
   }
 
+  handleFullScreenClick = event => {
+    if (!document.webkitIsFullScreen) {
+      this.player.webkitRequestFullscreen();
+    } else {
+      document.webkitExitFullscreen();
+    }
+  }
+
+  setRef = element => {
+    this.player = element;
+  }
   render() {
     return(
-      <VideoPlayerLayout>
+      <VideoPlayerLayout
+        setRef={this.setRef}
+      >
         <Title 
           title="Esto es un video"
         />
@@ -106,6 +121,9 @@ class VideoPlayer extends Component {
             handleVolumeChange={this.handleVolumeChange}
             handleClickVolume={this.handleClickVolume}
             colorVolume={this.state.colorVolume}
+          />
+          <FullScreen 
+            handleFullScreenClick={this.handleFullScreenClick}
           />
         </Controls>
         <Spinner 
