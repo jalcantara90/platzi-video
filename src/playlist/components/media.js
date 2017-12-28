@@ -7,15 +7,16 @@ class Media extends PureComponent { //tiene should component siempre por defecto
     author: this.props.author
   }
 
-  // handleClick = event => {
-  //   console.log(this.props.title);
-  //   this.setState({
-  //     author: 'Jonathan Alcántara'
-  //   })
-  // }
+  handleClick = event => {
+    this.props.openModal(this.props);
+    // console.log(this.props.title);
+    // this.setState({
+    //   author: 'Jonathan Alcántara'
+    // })
+  }
   render() {
     return(
-      <div className="Media" onClick={this.props.handleClick}>
+      <div className="Media" onClick={this.handleClick}>
         <div className="Media-cover">
           <img 
             className="Media-image"
