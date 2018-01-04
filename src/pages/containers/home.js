@@ -9,7 +9,9 @@ import VideoPlayer from '../../player/containers/video-player';
 
 class Home extends Component {
   state = {
-    modalVisible: false
+    modalVisible: false,
+    inputValue: '',
+    categories: []
   }
 
   handleOpenModal = (media) => {
@@ -25,17 +27,39 @@ class Home extends Component {
     })
   }
 
+  handleInputChange = event => {
+    let searchedMedia = {"playlist": []}
+    this.props.data.categories.forEach(category => {
+      category.playlist.forEach(media => {
+          if (media.title.toUpperCase().indexOf(event.target.value.toUpperCase()) >= 0 ) {
+            searchedMedia.playlist.push(media);
+          }else if (media.author.toUpperCase().indexOf(event.target.value.toUpperCase()) >= 0) {
+            searchedMedia.playlist.push(media);
+          }
+        })
+        return searchedMedia
+    })
+    this.setState({
+      // value: event.target.value.replace(' ','-')
+      inputValue: event.target.value,
+      categories: searchedMedia
+    })
+
+  }
+
   render(){
     return(
       <HandleError>
         <HomeLayout>
-          <Related />
-          <Categories categories={this.props.data.categories} 
+          <Related />   
+            <Categories categories={this.props.data.categories} 
             handleOpenModal={this.handleOpenModal}
+            handleInputChange={this.handleInputChange}
+            inputValue={this.state.inputValue}
+            searched={this.state.categories}
           />
           {
-            this.state.modalVisible &&
-          
+            this.state.modalVisible &&  
             <ModalContainer>
               <Modal
                 handleClick={this.handleCloseModal}>
@@ -46,7 +70,6 @@ class Home extends Component {
                 />
               </Modal>
             </ModalContainer>
-
           }
         </HomeLayout>
       </HandleError>

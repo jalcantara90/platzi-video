@@ -1,0 +1,21 @@
+.SearchedMedia {
+    max-width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.SearchedItem{
+    padding-bottom: 80px;
+    width: 260px;
+    float:left;
+    margin: 0 15px 5px 0;
+}
+
+.SearchTitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #3f546c;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+}

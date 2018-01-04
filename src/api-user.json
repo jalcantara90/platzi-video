@@ -1,0 +1,11 @@
+{
+  "users":[
+    {
+      "nickName": "jalcantara",
+      "name": "Jonathan Alcántara",
+      "profileImg": "https://pbs.twimg.com/profile_images/872745468115156992/JGulyXUY_400x400.jpg",
+      "password": 123,
+      "email": "jalcantara@email.com"
+    }
+  ]
+}

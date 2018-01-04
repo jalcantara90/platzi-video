@@ -7,6 +7,7 @@ class Media extends PureComponent { //tiene should component siempre por defecto
     author: this.props.author
   }
 
+
   handleClick = event => {
     this.props.openModal(this.props);
     // console.log(this.props.title);
