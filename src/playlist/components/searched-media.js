@@ -3,7 +3,6 @@ import './searched-media.css';
 import Media from './media';
 
 function SearchedMedia(props) {  
-  console.log(props);
   return(
     <div className="SearchedMedia">
       <h2 className="SearchTitle">Resultados de la busqueda: </h2>

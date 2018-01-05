@@ -8,7 +8,7 @@ const Search = (props) => ( // si solo vas a devolver UI puedes hacerlo en forma
   >
     <input className="Search-input"
       ref={props.setRef}
-      placeholder="Busca tu video favorito"
+      placeholder="Busca tu vídeo favorito"
       type="text" 
       name="search"
       // defaultValue="Luis Fonsi"

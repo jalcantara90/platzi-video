@@ -1,0 +1,53 @@
+.Login {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    
+}
+
+.LoginButton {
+    width: 106px;
+    height: 32px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, #fb2531, #ff6195);
+    font-family: Arial;
+    color: white;
+    font-size: 1.1em;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    transition: 4s;
+    cursor: pointer;
+}
+
+.LoginButton:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    background-image: linear-gradient(to right, #f50e1b, #f33e79);
+}
+
+.UserLogged {
+    display: flex;
+    align-items: center;
+}
+
+.ImgUserLogged{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.NameUserLogged {
+    color: #6e727c;
+    margin-right: 15px;
+}
+
+.UserLogged button {
+    height: inherit;
+    border: none;
+    background: transparent;
+    outline: 0;
+    width: inherit;
+    box-sizing: none;
+    cursor: pointer;
+    padding: 0;
+}
