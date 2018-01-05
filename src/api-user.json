@@ -5,7 +5,344 @@
       "name": "Jonathan Alcántara",
       "profileImg": "https://pbs.twimg.com/profile_images/872745468115156992/JGulyXUY_400x400.jpg",
       "password": 123,
-      "email": "jalcantara@email.com"
+      "email": "jalcantara@email.com",
+      "playlist": [
+        {
+          "title": "¿Qué es responsive Design?",
+          "author": "LeonidasEsteban",
+          "type": "video",
+          "cover": "./images/covers/responsive.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Cómo optimzar la carga de un website",
+          "author": "LeonidasEsteban",
+          "type": "video",
+          "cover": "./images/covers/optimizar.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
+          "id": 2
+        },
+        {
+          "title": "Qué es Bitcoin",
+          "author": "Yograterol",
+          "type": "video",
+          "cover": "./images/covers/bitcoin.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Que pasó con HTML5",
+          "author": "Freddier",
+          "type": "video",
+          "cover": "./images/covers/html5.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 6
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 7
+        },
+        {
+          "title": "One more time",
+          "author": "Daft Punk",
+          "type": "video",
+          "cover": "./images/covers/one-more-time.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 8
+        },
+        {
+          "title": "Midnight City",
+          "author": "M83",
+          "type": "video",
+          "cover": "./images/covers/midnight.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 9
+        },
+        {
+          "title": "Solar Sailer",
+          "author": "Daft Punk",
+          "type": "video",
+          "cover": "./images/covers/solar-sailer.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 10
+        },
+        {
+          "title": "The social network",
+          "author": "The social network",
+          "type": "video",
+          "cover": "./images/covers/social.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 11
+        },
+        {
+          "title": "No vaya a ser",
+          "author": "Pablo Alboran",
+          "type": "video",
+          "cover": "./images/covers/no-vaya-a-ser.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 12
+        },
+        {
+          "title": "Despacito",
+          "author": "Luis Fonsi",
+          "type": "video",
+          "cover": "./images/covers/despacito.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 13
+        },
+        {
+          "title": "Echame la culpa",
+          "author": "Luis fonsi",
+          "type": "video",
+          "cover": "./images/covers/echame-la-culpa.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 14
+        },
+        {
+          "title": "Mi Gente",
+          "author": "J Bavil",
+          "type": "video",
+          "cover": "./images/covers/mi-gente.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 22
+        },
+        {
+          "title": "Felices los 4",
+          "author": "Maluma",
+          "type": "video",
+          "cover": "./images/covers/felices.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 44
+        },
+        {
+          "title": "Me Rehúso",
+          "author": "Danny Ocean",
+          "type": "video",
+          "cover": "./images/covers/rehuso.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 55
+        }
+      ],
+      "friends": [
+        {
+          "id": 1,
+          "profileImg": "https://pbs.twimg.com/profile_images/480073396072742912/h6VGOhH6_400x400.jpeg",
+          "name": "Leonidas Esteban"
+        },
+        {
+          "id": 2,
+          "profileImg": "https://pbs.twimg.com/profile_images/849039710978625537/YTxV5qxk_400x400.jpg",
+          "name": "Freddy Vega"
+        },
+        {
+          "id": 3,
+          "profileImg": "https://pbs.twimg.com/profile_images/703539825853464577/jppQNmXD_400x400.jpg",
+          "name": "Christian Van Der H."
+        },
+        {
+          "id": 4,
+          "profileImg": "https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg",
+          "name": "Sacha Lifszyc"
+        },
+        {
+          "id": 5,
+          "profileImg": "https://pbs.twimg.com/profile_images/936319073452994560/ba5BBUvO_400x400.jpg",
+          "name": "Julián Duque"
+        }
+      ]
+    },
+    {
+      "nickName": "LeonidasEsteban",
+      "name": "Leonidas Esteban",
+      "profileImg": "https://pbs.twimg.com/profile_images/480073396072742912/h6VGOhH6_400x400.jpeg",
+      "password": 123,
+      "email": "leonidas@esteban.com",
+      "playlist": [
+        {
+          "title": "¿Qué es responsive Design?",
+          "author": "LeonidasEsteban",
+          "type": "video",
+          "cover": "./images/covers/responsive.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Cómo optimzar la carga de un website",
+          "author": "LeonidasEsteban",
+          "type": "video",
+          "cover": "./images/covers/optimizar.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
+          "id": 2
+        },
+        {
+          "title": "Qué es Bitcoin",
+          "author": "Yograterol",
+          "type": "video",
+          "cover": "./images/covers/bitcoin.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Que pasó con HTML5",
+          "author": "Freddier",
+          "type": "video",
+          "cover": "./images/covers/html5.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 6
+        },
+        {
+          "title": "Lo mejor de Mejorando.la",
+          "author": "Cvander",
+          "type": "video",
+          "cover": "./images/covers/mejorandola.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 7
+        },
+        {
+          "title": "One more time",
+          "author": "Daft Punk",
+          "type": "video",
+          "cover": "./images/covers/one-more-time.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 8
+        },
+        {
+          "title": "Midnight City",
+          "author": "M83",
+          "type": "video",
+          "cover": "./images/covers/midnight.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 9
+        },
+        {
+          "title": "Solar Sailer",
+          "author": "Daft Punk",
+          "type": "video",
+          "cover": "./images/covers/solar-sailer.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 10
+        },
+        {
+          "title": "The social network",
+          "author": "The social network",
+          "type": "video",
+          "cover": "./images/covers/social.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 11
+        },
+        {
+          "title": "No vaya a ser",
+          "author": "Pablo Alboran",
+          "type": "video",
+          "cover": "./images/covers/no-vaya-a-ser.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 12
+        },
+        {
+          "title": "Despacito",
+          "author": "Luis Fonsi",
+          "type": "video",
+          "cover": "./images/covers/despacito.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 13
+        },
+        {
+          "title": "Echame la culpa",
+          "author": "Luis fonsi",
+          "type": "video",
+          "cover": "./images/covers/echame-la-culpa.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 14
+        },
+        {
+          "title": "Mi Gente",
+          "author": "J Bavil",
+          "type": "video",
+          "cover": "./images/covers/mi-gente.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 22
+        },
+        {
+          "title": "Felices los 4",
+          "author": "Maluma",
+          "type": "video",
+          "cover": "./images/covers/felices.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 44
+        },
+        {
+          "title": "Me Rehúso",
+          "author": "Danny Ocean",
+          "type": "video",
+          "cover": "./images/covers/rehuso.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 55
+        }
+      ],
+      "friends": [
+        {
+          "id": 1,
+          "profileImg": "https://pbs.twimg.com/profile_images/872745468115156992/JGulyXUY_400x400.jpg",
+          "name": "Jonathan Alcántara"
+        },
+        {
+          "id": 2,
+          "profileImg": "https://pbs.twimg.com/profile_images/849039710978625537/YTxV5qxk_400x400.jpg",
+          "name": "Freddy Vega"
+        },
+        {
+          "id": 3,
+          "profileImg": "https://pbs.twimg.com/profile_images/703539825853464577/jppQNmXD_400x400.jpg",
+          "name": "Christian Van Der H."
+        },
+        {
+          "id": 4,
+          "profileImg": "https://pbs.twimg.com/profile_images/948403774380527621/qahQC5cM_400x400.jpg",
+          "name": "Sacha Lifszyc"
+        },
+        {
+          "id": 5,
+          "profileImg": "https://pbs.twimg.com/profile_images/936319073452994560/ba5BBUvO_400x400.jpg",
+          "name": "Julián Duque"
+        }
+      ]
     }
   ]
 }

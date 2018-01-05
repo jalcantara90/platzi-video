@@ -1,0 +1,28 @@
+.RelatedPlaylist {
+    color: white;
+    height: 550px;
+    overflow-y: scroll;
+    padding: 5px
+}
+
+.RelatedPlaylistContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.RelatedPlaylistList{
+    cursor: pointer;
+    /* border: red 1px solid; */
+
+}
+
+.RelatedPlaylistIndex {
+    /* border: orange 1px solid; */
+    margin-right: 10px;
+}
+
+.RelatedPlaylistListTitle {
+    /* border: green 1px solid; */
+    line-height: 2em;
+}

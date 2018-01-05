@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from '../../../images/logo.png';
 import './related.css';
-
-function Realted(props) {
+function Related(props) {
   return (
     <div className="Related">
       <img src={logo} width={250}/>
+      {props.children}
     </div>
   )
 }
 
-export default Realted
+export default Related

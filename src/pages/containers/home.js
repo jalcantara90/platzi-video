@@ -9,6 +9,8 @@ import VideoPlayer from '../../player/containers/video-player';
 import LoginFormContainer from '../../login-form/containers/login-form';
 import LoginForm from '../../login-form/components/login-form';
 import RegisterForm from '../../login-form/components/register-form';
+import RelatedPlaylist from '../../related-playlist/components/related-playlist';
+import FriendsPlaylist from '../../related-playlist/components/friends-playlist';
 
 class Home extends Component {
   state = {
@@ -96,7 +98,6 @@ class Home extends Component {
     if(!loginCorrecto) {
       alert('Usuario o contraseña inválido.')
     }
-
   }
 
   register = event => {
@@ -132,17 +133,20 @@ class Home extends Component {
     return(
       <HandleError>
         <HomeLayout>
-          <Related />   
-            <Categories 
-              openLoginModal={this.openModalLogin}
-              userLogged={this.state.dataUserLogged}
-              closeModalLogin={this.closeModalLogin}
-              categories={this.props.data.categories} 
-              handleOpenModal={this.handleOpenModal}
-              handleInputChange={this.handleInputChange}
-              inputValue={this.state.inputValue}
-              searched={this.state.categories}
-            />
+          <Related>
+            <RelatedPlaylist myPlaylist={this.state.dataUserLogged.playlist}/>
+            <FriendsPlaylist friendsPlaylist={this.state.dataUserLogged.friends}/>
+          </Related>
+          <Categories 
+            openLoginModal={this.openModalLogin}
+            userLogged={this.state.dataUserLogged}
+            closeModalLogin={this.closeModalLogin}
+            categories={this.props.data.categories} 
+            handleOpenModal={this.handleOpenModal}
+            handleInputChange={this.handleInputChange}
+            inputValue={this.state.inputValue}
+            searched={this.state.categories}
+          />
           {
             this.state.modalVisible &&  
             <ModalContainer>
