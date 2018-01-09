@@ -23,8 +23,8 @@ class SearchContainer extends Component {
       <Search
         setRef={this.setInputRef}
         handleSubmit={this.handleSubmit}
-        handleChange={this.handleInputChange}
-        value={this.state.value}
+        handleChange={this.props.handleInputChange}
+        value={this.props.inputValue}
       />
     )
   }
