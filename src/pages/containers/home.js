@@ -12,6 +12,9 @@ import RegisterForm from '../../login-form/components/register-form';
 import RelatedPlaylist from '../../related-playlist/components/related-playlist';
 import FriendsPlaylist from '../../related-playlist/components/friends-playlist';
 
+import { connect } from 'react-redux';
+import { List as list } from 'immutable';
+
 class Home extends Component {
   state = {
     modalVisible: false,
@@ -49,14 +52,14 @@ class Home extends Component {
 
   handleInputChange = event => {
     let searchedMedia = {"playlist": []}
-    this.props.data.categories.forEach(category => {
-      category.playlist.forEach(media => {
-          if (media.title.toUpperCase().indexOf(event.target.value.toUpperCase()) >= 0 || media.author.toUpperCase().indexOf(event.target.value.toUpperCase()) >= 0) {
-            searchedMedia.playlist.push(media);
-          }
-        })
-        return searchedMedia
-    })
+    // this.props.categories.forEach(category => {
+    //   category.playlist.forEach(media => {
+    //       if (media.title.toUpperCase().indexOf(event.target.value.toUpperCase()) >= 0 || media.author.toUpperCase().indexOf(event.target.value.toUpperCase()) >= 0) {
+    //         searchedMedia.playlist.push(media);
+    //       }
+    //     })
+    //     return searchedMedia
+    // })
     this.setState({
       // value: event.target.value.replace(' ','-')
       inputValue: event.target.value,
@@ -141,11 +144,12 @@ class Home extends Component {
             openLoginModal={this.openModalLogin}
             userLogged={this.state.dataUserLogged}
             closeModalLogin={this.closeModalLogin}
-            categories={this.props.data.categories} 
+            categories={this.props.categories} 
             handleOpenModal={this.handleOpenModal}
             handleInputChange={this.handleInputChange}
             inputValue={this.state.inputValue}
             searched={this.state.categories}
+            search={this.props.search}
           />
           {
             this.state.modalVisible &&  
@@ -196,4 +200,24 @@ class Home extends Component {
   }
 }
 
-export default Home;
+function mapStateToProps(state, props) {
+  const categories = state.get('data').get('categories').map( categoryId => {
+    return state.get('data').get('entities').get('categories').get(categoryId)
+  })
+
+  let searchResults = list()
+  const search = state.get('data').get('search');
+  if (search) {
+    const mediaList = state.get('data').get('entities').get('media');
+    searchResults = mediaList.filter((item) => (
+      item.get('author').toLowerCase().includes(search.toLowerCase())
+    )).toList();
+  }
+
+  return {
+    categories,
+    search: searchResults
+  }
+}
+
+export default connect(mapStateToProps)(Home);

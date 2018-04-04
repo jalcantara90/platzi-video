@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "description": "Lo mejor de la semana",
       "title": "Destacados",
       "playlist": [
@@ -11,7 +11,7 @@
           "type": "video",
           "cover": "./images/covers/responsive.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 1
+          "id": "1"
         },
         {
           "title": "Cómo optimzar la carga de un website",
@@ -19,7 +19,7 @@
           "type": "video",
           "cover": "./images/covers/optimizar.jpg",
           "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
-          "id": 2
+          "id": "2"
         },
         {
           "title": "Qué es Bitcoin",
@@ -27,7 +27,7 @@
           "type": "video",
           "cover": "./images/covers/bitcoin.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 3
+          "id": "3"
         },
         {
           "title": "Que pasó con HTML5",
@@ -35,7 +35,7 @@
           "type": "video",
           "cover": "./images/covers/html5.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 4
+          "id": "4"
         },
         {
           "title": "Lo mejor de Mejorando.la",
@@ -43,7 +43,7 @@
           "type": "video",
           "cover": "./images/covers/mejorandola.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 5
+          "id": "5"
         },
         {
           "title": "Lo mejor de Mejorando.la",
@@ -51,7 +51,7 @@
           "type": "video",
           "cover": "./images/covers/mejorandola.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 6
+          "id": "6"
         },
         {
           "title": "Lo mejor de Mejorando.la",
@@ -59,12 +59,12 @@
           "type": "video",
           "cover": "./images/covers/mejorandola.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 7
+          "id": "7"
         }
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "Lo mejor para concentrarte",
       "title": "Para programar",
       "playlist": [
@@ -74,7 +74,7 @@
           "type": "video",
           "cover": "./images/covers/one-more-time.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 8
+          "id": "8"
         },
         {
           "title": "Midnight City",
@@ -82,7 +82,7 @@
           "type": "video",
           "cover": "./images/covers/midnight.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 9
+          "id": "9"
         },
         {
           "title": "Solar Sailer",
@@ -90,7 +90,7 @@
           "type": "video",
           "cover": "./images/covers/solar-sailer.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 10
+          "id": "10"
         },
         {
           "title": "The social network",
@@ -98,7 +98,7 @@
           "type": "video",
           "cover": "./images/covers/social.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 11
+          "id": "11"
         },
         {
           "title": "No vaya a ser",
@@ -106,12 +106,12 @@
           "type": "video",
           "cover": "./images/covers/no-vaya-a-ser.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 12
+          "id": "12"
         }
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "description": "Si no te queda de otra",
       "title": "Regueton",
       "playlist": [
@@ -121,7 +121,7 @@
           "type": "video",
           "cover": "./images/covers/despacito.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 13
+          "id": "13"
         },
         {
           "title": "Echame la culpa",
@@ -129,7 +129,7 @@
           "type": "video",
           "cover": "./images/covers/echame-la-culpa.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 14
+          "id": "14"
         },
         {
           "title": "Mi Gente",
@@ -137,7 +137,7 @@
           "type": "video",
           "cover": "./images/covers/mi-gente.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 22
+          "id": "22"
         },
         {
           "title": "Felices los 4",
@@ -145,7 +145,7 @@
           "type": "video",
           "cover": "./images/covers/felices.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 44
+          "id": "44"
         },
         {
           "title": "Me Rehúso",
@@ -153,7 +153,7 @@
           "type": "video",
           "cover": "./images/covers/rehuso.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 55
+          "id": "55"
         }
       ]
     }

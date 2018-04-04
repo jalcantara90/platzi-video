@@ -34,11 +34,11 @@ class Media extends PureComponent { //tiene should component siempre por defecto
   }
 }
 
-Media.propTypes = {
-  image: PropTypes.string,
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string,
-  type: PropTypes.oneOf(['video', 'audio'])
-}
+// Media.propTypes = {
+//   image: PropTypes.string,
+//   title: PropTypes.string.isRequired,
+//   author: PropTypes.string,
+//   type: PropTypes.oneOf(['video', 'audio'])
+// }
 
 export default Media;
